@@ -46,6 +46,7 @@ span{
     margin-top:10px;
     color: #247577;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .btn{
     position: fixed;
@@ -60,6 +61,7 @@ span{
     border: none;
     border-radius: 10px;
     transform: translate(-50%);
+    cursor: pointer;
     
 }
 .btn:hover{
