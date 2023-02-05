@@ -1,6 +1,6 @@
 const container = document.querySelector(".container");
 const btn = document.querySelector(".btn");
-const maxBoxes = 30;
+const maxBoxes = 20;
 
 const randomPalette = () => {
   let html = "";

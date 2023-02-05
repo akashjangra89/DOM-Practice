@@ -63,3 +63,19 @@ span {
 .btn:hover {
   background-color: #247577;
 }
+@media screen and (max-width:482px) {
+  .list{
+    margin: 10px;
+  }
+  .list .color{
+    margin: 8px;
+    padding: 5px;
+  }
+  .list .box{
+    width: 145px;
+    height: 148px;
+  }
+  span{
+    font-size: 1rem;
+  }
+}
