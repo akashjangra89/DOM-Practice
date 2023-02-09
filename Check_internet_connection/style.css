@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  margin-right: 20px;
+}
+.green{
+    color: green;
+}
+.red{
+    color: #ff0000;
+}
+body{
+    background-color: #f0ffff;
+}
+.popUp{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    visibility: hidden;
+    transform: translateX(-50%);
+    background: #f5eada;
+    width: 500px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #cdced380;
+    border-top: 3px solid #3079f6;
+    transition: all 0.25s ease;
+}
+.popUp.show{
+    top: 0;
+    visibility: visible;
+}
+.title{
+    font-size: 1.2rem;
+}
+.desc{
+    color: #7e8989;
+    margin-top: 10px;
+}
+.popUp .reconnect{
+    border: none;
+    outline: none;
+    background-color:#3079f6;
+    cursor: pointer;
+    font-size: 1.01rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #f0ffff;
+}
